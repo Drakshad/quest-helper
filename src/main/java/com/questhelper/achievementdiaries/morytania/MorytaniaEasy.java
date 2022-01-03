@@ -242,6 +242,22 @@ public class MorytaniaEasy extends ComplexStateQuestHelper
 
 		return reqs;
 	}
+	
+	@Override
+	public List<ItemReward> getItemRewards()
+	{
+		return Arrays.asList(
+				new ItemReward("Morytania Legs (1)", ItemID.MORYTANIA_LEGS_1, 1),
+				new ItemReward("2,500 Exp. Lamp (Any skill over 30)", ItemID.ANTIQUE_LAMP, 1));
+	}
+
+	@Override
+	public List<UnlockReward> getUnlockRewards()
+	{
+		return Arrays.asList(
+				new UnlockReward("50% chance of a ghast ignoring you rather than attacking"),
+				new UnlockReward("2.5% more Slayer experience in the Slayer Tower while on a Slayer task"),
+	}
 
 	@Override
 	public List<String> getCombatRequirements()
