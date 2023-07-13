@@ -223,7 +223,7 @@ public class FairytaleI extends BasicQuestHelper
 			"you're right!");
 		talkToFarmers = new NpcStep(this, NpcID.ELSTAN,
 			"Talk to 5 farmers, then return to Martin in Draynor Village. The recommended 5 are: Frizzy in Port Sarim.");
-		talkToFarmers.addText("Elstan north west of Draynor.");
+		talkToFarmers.addText("Elstan south west of Draynor.");
 		talkToFarmers.addText("Heskel in Falador Park.");
 		talkToFarmers.addText("Treznor south of Varrock Castle.");
 		talkToFarmers.addText("Dreven south of Varrock, next to the Champions' Guild.");
